@@ -9,6 +9,9 @@
   --secondary-color: #fff;
   --border-color: #ddd;
   --accent-color: #eee;
+  --subdued-text: #555;
+  --subdued-text-primary: #555;
+  --subdued-text-secondary: #ccc;
   --text-color: var(--primary-color);
   --background-color: var(--secondary-color);
   --border-color-primary: #ddd;
@@ -24,6 +27,7 @@
     --background-color: var(--primary-color);
     --border-color: var(--border-color-secondary);
     --accent-color: var(--accent-color-secondary);
+    --subdued-text: var(--subdued-text-secondary);
   }
   &:has(input[name="theme"][value="light"]:checked) {
     color-scheme: light;
@@ -31,6 +35,7 @@
     --background-color: var(--secondary-color);
     --border-color: var(--border-color-primary);
     --accent-color: var(--accent-color-primary);
+    --subdued-text: var(--subdued-text-primary);
   }
 }
 
@@ -47,7 +52,7 @@
 }
 .platforms {
   font-size: .875rem;
-  color: #666;
+  color: var(--subdued-text);
   font-weight: 600;
 }
 
@@ -64,7 +69,7 @@ a {
 }
 em { 
   font-size: .875rem;
-  color: #666;
+  color: var(--subdued-text);
   font-weight: 600;
 }
 
@@ -184,7 +189,7 @@ button, a.button {
 }
 footer {
   padding: .5rem 2rem;
-  color: #666;
+  color: var(--subdued-text);;
   font-size: .875rem;
 }
 .formkit-fields {
@@ -251,14 +256,23 @@ footer {
   }
   [data-style="minimal"] {
     padding: 2rem;
+    font-size: .75rem;
+    .formkit-guarantee {
+      font-size: .75rem;
+    }  
   }
   .inset-square {
     padding: 1rem;
   }
-  footer {
-    flex-wrap: wrap;
-    > * {
-      margin-inline: auto;
+  footer.space-between {
+    display: block;
+    p {
+      text-align: center;
     }
+    .switch {
+      justify-content: center;
+      margin-top: .5rem;
+    }
+
   }
 }
