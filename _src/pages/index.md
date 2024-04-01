@@ -117,20 +117,20 @@ I was immediately drawn in by the art style of this animated series about a youn
 
 <img src="/assets/images/shogun.jpg" alt="Poster for Shōgun" class="boxart">
 
-Yep, I've got a thing for media set in feudal Japan and so far this year has been chock full of it. It took me a bit to warm up to Shōgun, which was hyped as a Game of Thrones-type epic. It's really not that. There is plenty of combat and intrigue but as the show has gone on what's really kept me interested is the relationship between foreigner, John Blackthorne, and his translator/love interest Mariko. This show is low-key horny, y'all. It's great seeing Hiroyuki Sanada, who's spent decades working as a character actor in Hollywood, finally get a much deserved starring role. <span class="platforms">[Hulu/FX]</span>
+Yep, I've got a thing for media set in feudal Japan and so far this year has been chock full of it. It took me a bit to warm up to Shōgun, which was hyped as a **Game of Thrones**-type epic. It's really not that. There is plenty of combat and intrigue but as the show has gone on what's really kept me interested is the relationship between foreigner, John Blackthorne, and his translator/love interest Mariko. This show is low-key horny, y'all. It's great seeing Hiroyuki Sanada, who's spent decades working as a character actor in Hollywood, finally get a much deserved starring role. <span class="platforms">[Hulu/FX]</span>
 
 #### Band of Brothers
 
 <img src="/assets/images/band-of-brothers.jpg" alt="Poster for Band of Brothers" class="boxart">
 
-I had an itch to re-watch this after being underwhelmed by **Masters of Air** on Apple TV+. Still the best of these WW2 series and maybe in my top 3 HBO series. Filled with great character actors and some notable faces that would go on to future stardom (Tom Hardy, Michael Fassbender, Colin Hanks). I'm kind of surprised more of the cast didn't become more well-known. It's over 20 years old but feels grittier and more realistic than Masters of Air, which looks like most of it was shot on the Volume.<span class="platforms">[Netflix/Max, the one to watch for HBO]</span>
+I had an itch to re-watch this after being underwhelmed by **Masters of Air** on Apple TV+. Still the best of these WW2 series and maybe in my top 3 HBO series. Filled with great character actors and some notable faces that would go on to future stardom (Tom Hardy, Michael Fassbender, Colin Hanks). I'm kind of surprised more of the cast didn't become more well-known. It's over 20 years old but feels grittier and more realistic than Masters of Air, which looks like most of it was shot on the Volume. <span class="platforms">[Netflix/Max, the one to watch for HBO]</span>
 
 ### 📱 Videos
 
 I did a poor job of saving the best YouTube/TikTok content that I enjoyed this year, but here's a few off the top of my head.
 
 
-* Andrew Callaghan, previously of All Gas No Brakes, has been doing some fascinating journalism that you just don't see in the mainstream media. It's hard to tell what his political leanings are because he tries really hard to relate to all of the people he interviews. This year he's done some great long-form content on hot-button issues like <a href="https://youtu.be/925wmb-4Yr4?si=NgXyh7GpYvp5MO7u">drug addiction</a> and <a href="https://youtu.be/akrF8X0KgGg?si=ABFKUE-VWvZsjqt2">the border crisis</a>.
+* Andrew Callaghan, previously of **All Gas No Brakes**, has been doing some fascinating journalism that you just don't see in the mainstream media. It's hard to tell what his political leanings are because he tries really hard to relate to all of the people he interviews. This year he's done some great long-form content on hot-button issues like <a href="https://youtu.be/925wmb-4Yr4?si=NgXyh7GpYvp5MO7u">drug addiction</a> and <a href="https://youtu.be/akrF8X0KgGg?si=ABFKUE-VWvZsjqt2">the border crisis</a>.
 
 * Loved <a href="https://youtu.be/REPPgPcw4hk?si=K5aj4NXPxYzj49Bv">this video</a> of dance company CDK dancing to Gotye's Somebody That I Used to Know.
 
