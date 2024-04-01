@@ -1,8 +1,9 @@
 ---
-title: Peruvian Idle
+title: Home
 permalink: /
 ---
 
-{% for issue in collection.issues %}
-  {{ issue.templateContent }}
+{% for post in collections.posts %}
+  <p>{{ post.title }}</p>
+  {{ post.content | safe }}
 {% endfor %}
