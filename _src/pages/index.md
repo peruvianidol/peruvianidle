@@ -7,7 +7,7 @@ permalink: /
 
 It seems _everyone_ has a newsletter these days. Rather than do a newsletter about CSS or design systems (stuff I spend my day thinking/stressing about) I thought I'd write one about something I enjoy in my free time: consuming copious amounts of TV, movies and video games.
 
-My wife and kids are usually in bed by 9pm, giving me a few solid hours to veg out... assuming I don't pass out from exhaustion first. A couple of times a month, I'll share with you all the best stuff I've been watching and playing.
+My wife and kids are usually in bed by 9pm, giving me a few solid hours to veg out... assuming I don't pass out from exhaustion first. Once a month, I'll share with you all the best stuff I've been watching and playing.
 
 It's already been a busy 2024, so here's some of the best stuff I've enjoyed so far. (I promise these won't be this long in the future!)
 
