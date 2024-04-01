@@ -31,14 +31,15 @@
     </article>
     {% include "partials/convertkit.njk" %}
   </main>
-  <footer class="flex">
-    <p>A newsletter by <a href="https://mikeaparicio.com">Mike Aparicio</a>.</p>
-    <div class="flex">
-      <label class="flex">
+  <footer class="space-between">
+    <p>A newsletter by <a href="https://mikeaparicio.com">Mike Aparicio</a>. <a href="">RSS Feed</a></p>
+    <div class="flex switch" style="gap: 0;">
+      <p>Theme:</p>
+      <label class="flex" title="Light Mode">
         <input type="radio" name="theme" value="light">
         <span class="sr-only">Light Mode</span>
       </label>
-      <label class="flex">
+      <label class="flex" title="Dark Mode">
         <input type="radio" name="theme" value="dark">
         <span class="sr-only">Dark Mode</span>
       </label>
