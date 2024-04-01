@@ -166,6 +166,7 @@ button, input {
 }
 input {
   width: 100%;
+  color: currentColor;
 }
 button, a.button {
   cursor: pointer;
@@ -238,3 +239,26 @@ footer {
   justify-content: space-between;
 }
 
+@media (width < 600px) {
+  h1 {
+    font-size: 2rem;
+    & + p {
+      font-size: .75rem;
+    }
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  [data-style="minimal"] {
+    padding: 2rem;
+  }
+  .inset-square {
+    padding: 1rem;
+  }
+  footer {
+    flex-wrap: wrap;
+    > * {
+      margin-inline: auto;
+    }
+  }
+}
