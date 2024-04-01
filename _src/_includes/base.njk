@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="{{ title }}">
+	<meta name="description" content="{{ description }}">
+  <meta name="author" content="{{ site.author }}">
+	<meta name="generator" content="{{ eleventy.generator }}">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{ page.URL }}">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:title" content="{{ title }}">
+	<meta property="og:description" content="{{ description }}">
+	<meta property="og:image" content="{{ site.image }}">
+  <link rel="icon" href="{{ site.icon }}" type="image/svg+xml">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/idle.css">
+</head>
+<body>
+  <header class="inset-square space-between">
+    <div>
+      <h1>{{ title }}</h1>
+      <p>A newsletter about good content on screens.</p>
+    </div>
+    <a href="#subscribe" class="button">Subscribe</a>
+  </header>
+  <main>
+    <article class="flow inset-square">
+      {{ content | safe }}
+    </article>
+    {% include "partials/convertkit.njk" %}
+  </main>
+  <footer class="flex">
+    <p>A newsletter by <a href="https://mikeaparicio.com">Mike Aparicio</a>.</p>
+    <div class="flex">
+      <label class="flex">
+        <input type="radio" name="theme" value="light">
+        <span class="sr-only">Light Mode</span>
+      </label>
+      <label class="flex">
+        <input type="radio" name="theme" value="dark">
+        <span class="sr-only">Dark Mode</span>
+      </label>
+    </div>
+  </footer>
+</body>
+</html>

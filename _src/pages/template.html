@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peruvian Idle</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      font: inherit;
+    }
+    .newsletter {
+      font-family: Georgia, serif;
+      background-color: #fff;
+      max-width: 80ch;
+      margin: -1px auto;
+      line-height: 1.5;
+      color: #333;
+    }
+    header, main {
+      padding: 3rem 4rem;
+      font-size: 1.125rem;
+    }
+    main > :not(:last-child),
+    footer > :not(:last-child)  {
+      margin-bottom: 1.5rem;
+    }
+    h1, h2, h3, h4 {
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    footer {
+      font-size: .875rem;
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+      color: #666;
+      padding: 2rem;
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  
+  <table style="background-color: #ddd; width: 100%; border-spacing: 0; border: 0; overflow: clip"><tr><td>
+    <div class="newsletter">
+      <header>
+        <h1>Peruvian Idle</h1>
+        <p>A newsletter about good content on screens.</p>
+      </header>
+
+      <main>
+        {{ message_content }}
+      </main>
+
+      <footer>
+        <p>This message was sent to {{ subscriber.email_address }}. If you’d prefer not to receive this newsletter, you can <a href="{{ unsubscribe_url }}">unsubscribe</a> or <a href="{{ subscriber_preferences_link }}">update your preferences</a>.</p>
+        <p>Sent by <a href="https://mikeaparicio.com">Mike Aparicio</a>, {{ address }}</p>
+      </footer>
+    </div>
+  </td></tr></table>
+</body>
+</html>
