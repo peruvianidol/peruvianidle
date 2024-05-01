@@ -18,17 +18,25 @@
   <link rel="stylesheet" href="/assets/css/idle.css">
 </head>
 <body>
-  <header class="inset-square space-between" style="align-items: flex-start">
+  <header class="inset-square space-between" style="align-content: flex-start">
     <div>
-      <h1>{{ site.title }}</h1>
+      <h1><a href="/">{{ site.title }}</a></h1>
       <p>A newsletter about good content on screens.</p>
     </div>
     <a href="#subscribe" class="button">Subscribe</a>
   </header>
   <main>
-    <article class="flow inset-square">
+    {% if page.url === "/" %}
       {{ content | safe }}
-    </article>
+    {% else %}
+      <article class="flow inset-square">
+        <div class="stack">
+          <h2><a href="{{ url }}">#{{ page.fileSlug }} &middot; {{ title }}</a></h2>
+          <p class="subdued">{{ pubDate }}</p>
+        </div>
+        {{ content | safe }}
+      </article>
+    {% endif %}
     {% include "partials/convertkit.njk" %}
   </main>
   <footer class="space-between">
